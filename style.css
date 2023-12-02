@@ -1,0 +1,206 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carte {
+    width: 230px;
+    height: 322px;
+    border-radius: 2px;
+}
+
+.en-tete {
+    width: auto;
+    height: 35px;
+    background:  #a4a4a4;
+    border-radius: 2px 2px 0 0;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.en-tete h1 {
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.sous-en-tete {
+    width: auto;
+    height: 35px;
+    background:  #f2f2f2;
+    padding: 0 8px 0 8px;
+}
+
+.sous-en-tete p {
+    display: inline-block;
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sous-en-tete span {
+    font-size: 16px;
+}
+
+.sous-en-tete-ball {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background-image: url(/img_pokemon/energy-types.png);
+    background-size: 395% 300%;
+    background-position: 33% 50%;
+}
+
+#margin-sous-en-tete {
+    margin-right: 63px;
+    font-size: 11px;
+}
+
+.contenu-principal {
+    width: auto;
+    height: 152px;
+    padding-top: 25px;
+}
+
+.sous-contenu-principal {
+    height: 60px;
+    padding: 0 9px 0 9px;
+}
+
+.sous-contenu-principal span {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.sous-contenu-principal p {
+    font-size: 7.6px;
+    margin-top: 5px;
+    color: rgb(148, 145, 145);
+}
+
+.sous-contenu-principal-ball {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-left: 3px;
+    background-image: url(/img_pokemon/energy-types.png);
+    background-size: 395% 300%;
+    background-position: 33% 0%;
+}
+
+#style-20 {
+    margin-top: -8px;
+    float: right;
+    font-weight: lighter;
+    color: rgb(128, 128, 128);
+}
+
+#ball-no-margin {
+    margin-left: 0px;
+}
+
+.pied-de-page {
+    width: auto;
+    height: 100px;
+    background: #f2f2f2;
+    border-radius: 2px;
+}
+
+.sous-pied-de-page {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.bloc-sous-pied-de-page {
+    height: 50px;
+    width: 60px;
+    text-align: center;
+    /* background: red; */
+    margin: 9px 9px 0 9px;
+}
+
+.bloc-sous-pied-de-page h3 {
+    font-size: 10px;
+    font-weight: normal;
+    margin: 2px 0 8px 0;
+}
+
+.bloc-sous-pied-de-page span {
+    display: inline-block;
+    margin-right: 12px;  
+}
+
+.bloc-sous-pied-de-page-ball-1 {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background-image: url(/img_pokemon/energy-types.png);
+    background-size: 395% 300%;
+    background-position: 67% 50%;
+}
+
+.bloc-sous-pied-de-page-ball-2 {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background-image: url(/img_pokemon/energy-types.png);
+    background-size: 395% 300%;
+    background-position: 100% 0%;
+}
+
+.bloc-sous-pied-de-page-ball-3 {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-right: 12px; 
+    background-image: url(/img_pokemon/energy-types.png);
+    background-size: 395% 300%;
+    background-position: 33% 0%;
+}
+
+.pied-de-page footer {
+    height: 35px;
+    width: auto;
+}
+
+.bloc-pied-de-page {
+    height: 35px;
+    width: 212px;
+    margin: 0 9px;
+}
+
+.bloc-pied-de-page span {
+    font-size: 8px;
+    font-weight: bold;
+    color: rgba(15, 97, 204, 0.904);
+}
+
+.bloc-pied-de-page p {
+    font-size: 6.5px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.bloc-pied-de-page-symbol {
+    width: 16px;
+    height: 16px;
+    background-image: url(/img_pokemon/xy1-expansion-symbol.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 197px;
+    bottom: 20px;
+}
