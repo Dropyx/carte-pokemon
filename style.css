@@ -56,7 +56,7 @@ body {
     width: 13px;
     height: 13px;
     display: inline-block;
-    background-image: url(/img_pokemon/energy-types.png);
+    background-image: url(https://raw.githubusercontent.com/Dropyx/carte-pokemon/main/img_pokemon/energy-types.png);
     background-size: 395% 300%;
     background-position: 33% 50%;
 }
@@ -95,7 +95,7 @@ body {
     height: 13px;
     display: inline-block;
     margin-left: 3px;
-    background-image: url(/img_pokemon/energy-types.png);
+    background-image: url(https://raw.githubusercontent.com/Dropyx/carte-pokemon/main/img_pokemon/energy-types.png);
     background-size: 395% 300%;
     background-position: 33% 0%;
 }
@@ -147,7 +147,7 @@ body {
     width: 13px;
     height: 13px;
     display: inline-block;
-    background-image: url(/img_pokemon/energy-types.png);
+    background-image: url(https://raw.githubusercontent.com/Dropyx/carte-pokemon/main/img_pokemon/energy-types.png);
     background-size: 395% 300%;
     background-position: 67% 50%;
 }
@@ -156,7 +156,7 @@ body {
     width: 13px;
     height: 13px;
     display: inline-block;
-    background-image: url(/img_pokemon/energy-types.png);
+    background-image: url(https://raw.githubusercontent.com/Dropyx/carte-pokemon/main/img_pokemon/energy-types.png);
     background-size: 395% 300%;
     background-position: 100% 0%;
 }
@@ -166,7 +166,7 @@ body {
     height: 13px;
     display: inline-block;
     margin-right: 12px; 
-    background-image: url(/img_pokemon/energy-types.png);
+    background-image: url(https://raw.githubusercontent.com/Dropyx/carte-pokemon/main/img_pokemon/energy-types.png);
     background-size: 395% 300%;
     background-position: 33% 0%;
 }
@@ -197,7 +197,7 @@ body {
 .bloc-pied-de-page-symbol {
     width: 16px;
     height: 16px;
-    background-image: url(/img_pokemon/xy1-expansion-symbol.png);
+    background-image: url(https://raw.githubusercontent.com/Dropyx/carte-pokemon/main/img_pokemon/xy1-expansion-symbol.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
